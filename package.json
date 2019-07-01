@@ -1,0 +1,19 @@
+{
+  "name": "slack-mass-leaver",
+  "version": "1.0.0",
+  "author": "motemen <motemen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^5.0.1",
+    "inquirer": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.0.3",
+    "typescript": "^3.5.2"
+  },
+  "bin": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node ./dist/main.js"
+  }
+}
