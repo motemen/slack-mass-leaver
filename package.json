@@ -1,5 +1,5 @@
 {
-  "name": "slack-mass-leaver",
+  "name": "@motemen/slack-mass-leaver",
   "version": "1.0.0",
   "author": "motemen <motemen@gmail.com>",
   "license": "MIT",

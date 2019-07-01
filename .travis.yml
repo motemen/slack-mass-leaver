@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+deploy:
+  provider: npm
+  email: motemen@gmail.com
+  api_key:
+    secure: GAFAgyphpWK1+vQJhEmLSvR6y/6ZSVyuUA6l762pA6v0xC0it6PEDsA+dJ9qh8NjrdhWfcLs6IIdcpsXfVkY/PdYAN47jwpKvBkV3pCSFLsr11Y52i93iUyVji54jNsiESkizQRBWJOh+u3gjLddsRBmBtPSz/PGOiALsLbZ1WuEkVZe9eC9k4xfsofhmOfO0SmucVphFfaTKJgflLZVUZDrYVPoK8OIblMZNwEvRetR7IoBI8ANU23CxCN/T0W7/dd8nbChXf/U9JfhNsV5mALHRmC2GooFV5FspaqW2VrFOXf7UfU/ai7nbWRdnGXsf3K6EZWG675j8RuITPO/aDL4u3EPJ2LGVCMjiWvYyq/Hu4YYqJrOK0BFFDBgp8Gu33yQ+qiQt0WcglSGsQW8VUhNGz55IjSgL+EsFdWNiRD9m9SusTnfFzL/uHosXzsA8XkjCYmKzgi6epzVTetFV2mxs6Dr5c9m8j5enQikd8YsHBWlh1gZTf55xBu63ujhpzPb0YRSanStuEbd+B5DoqF9Doax5e3Q2LFSqEkIwX3MpDMo3TikmYoWOfciRRYNflI2yYCKWr0dVhl/Q0qlevEg8/ewhyKfPk2kBuV0XE6ywnldfzKP6o7xDocdlpfQqm/PF14sgAj/iH/7+Vr1zLm777sJSMx+YkD+OxG7xVw=
+  on:
+    tags: true
+    repo: motemen/slack-mass-leaver
