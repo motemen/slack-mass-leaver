@@ -41,7 +41,9 @@ const pattern = new RegExp(process.argv[2] || /(?:)/);
 
     const result = await client.channels.leave({ channel: ch.id });
     if (!result.ok) {
-      console.warn(`Failed to leave channel #${chName}: ${result.error || "(unknown)"}`);
+      console.warn(`Failed to leave #${chName}: ${result.error || "(unknown)"}`);
+    } else {
+      console.log(`Successfully left #${chName}`);
     }
   }
 })();
